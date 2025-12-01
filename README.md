@@ -37,7 +37,7 @@ Set these inside Profiles → default:
 | Variable             | Description                   |
 | -------------------- | ----------------------------- |
 | `GMAIL_USERNAME`     | Gmail email address           |
-| `GMAIL_APP_PASSWORD` | Gmail app password (16-digit) | // (https://myaccount.google.com/apppasswords)
+| `GMAIL_APP_PASSWORD` | Gmail app password (16-digit) |
 
 ============================================================
 
@@ -46,7 +46,7 @@ Set these inside Profiles → default:
 2. Import this project
 3. Set Global Variables:
    - GMAIL_USERNAME='email@gmail.com' // your gmail
-   - GMAIL_APP_PASSWORD='aaaa bbbb cccc dddd' // your gmail app password
+   - GMAIL_APP_PASSWORD='aaaa bbbb cccc dddd' // your gmail app password // (https://myaccount.google.com/apppasswords)
 4. Execute TestCases/tc_1 - login email in Android
 5. Check Reports
 
