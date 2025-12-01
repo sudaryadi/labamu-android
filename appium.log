@@ -1,0 +1,128 @@
+[38;5;112m[Appium][0m Attempting to load plugin images...
+[38;5;112m[Appium][0m Welcome to Appium v3.0.2
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m58267[39m, usePlugins: [ [32m'images'[39m ] }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Attempting to load driver chromium...
+[38;5;112m[Appium][0m Attempting to load driver espresso...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:58267/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://192.168.1.3:58267/wd/hub
+	http://127.0.0.1:58267/wd/hub (only accessible from the same host)
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@5.0.3 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m   - chromium@2.0.2 (automationName 'Chromium')
+[38;5;112m[Appium][0m   - espresso@5.0.3 (automationName 'Espresso')
+[38;5;112m[Appium][0m Available plugins:
+[38;5;112m[Appium][0m   - execute-driver@5.0.1
+[38;5;112m[Appium][0m   - images@4.0.1 (ACTIVE)
+[38;5;112m[Appium][0m   - inspector@2025.8.2
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m[39m
+[38;5;127m[AppiumDriver@1ee2][0m Plugins which can handle cmd 'getStatus': images
+[38;5;127m[AppiumDriver@1ee2][0m Plugin images is now handling cmd 'getStatus'
+[38;5;127m[AppiumDriver@1ee2][0m Executing default handling behavior for command 'getStatus'
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m10 ms - 110[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m[39m
+[38;5;127m[AppiumDriver@1ee2][0m Plugins which can handle cmd 'getStatus': images
+[38;5;127m[AppiumDriver@1ee2][0m Plugin images is now handling cmd 'getStatus'
+[38;5;127m[AppiumDriver@1ee2][0m Executing default handling behavior for command 'getStatus'
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 110[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:appPackage":"id.co.labamu.app","appium:autoGrantPermissions":true,"appium:automationName":"UiAutomator2","appium:deviceId":"emulator-5554","appium:deviceName":"emulator-5554","appium:newCommandTimeout":1800,"appium:platformName":"Android","appium:platformVersion":"16","appium:systemPort":8271,"appium:udid":"emulator-5554","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:appPackage":"id.co.labamu.app","appium:autoGrantPermissions":true,"appium:automationName":"UiAutomator2","appium:deviceId":"emulator-5554","appium:deviceName":"emulator-5554","appium:newCommandTimeout":1800,"appium:platformName":"Android","appium:platformVersion":"16","appium:systemPort":8271,"appium:udid":"emulator-5554","platformName":"ANDROID"}}[39m
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;127m[AppiumDriver@1ee2][0m Plugins which can handle cmd 'createSession': images
+[38;5;127m[AppiumDriver@1ee2][0m Plugin images is now handling cmd 'createSession'
+[38;5;127m[AppiumDriver@1ee2][0m Executing default handling behavior for command 'createSession'
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=Android' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\sudar\.appium\node_modules\appium-uiautomator2-driver
+[38;5;127m[AppiumDriver@1ee2][0m Appium v3.0.2 creating new AndroidUiautomator2Driver (v5.0.3) session
+[38;5;127m[AppiumDriver@1ee2][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;127m[AppiumDriver@1ee2][0m Appium's BaseDriver version is 10.0.1
+[38;5;127m[AppiumDriver@1ee2][0m AndroidUiautomator2Driver's BaseDriver version is 10.0.1
+[38;5;-120m[AndroidUiautomator2Driver@33ab][0m The following provided capabilities were not recognized by this driver:
+[38;5;-120m[AndroidUiautomator2Driver@33ab][0m   deviceId
+[38;5;159m[068b608e][0m[38;5;-120m[AndroidUiautomator2Driver@33ab][0m Session created with session id: 068b608e-f21d-4c4b-996d-b22bfcabe6f4
+[38;5;159m[068b608e][0m[38;5;229m[ADB][0m Found 3 'build-tools' folders under 'C:\Users\sudar\AppData\Local\Android\Sdk' (newest first):
+[38;5;159m[068b608e][0m[38;5;229m[ADB][0m     C:\Users\sudar\AppData\Local\Android\Sdk\build-tools\36.0.0
+[38;5;159m[068b608e][0m[38;5;229m[ADB][0m     C:\Users\sudar\AppData\Local\Android\Sdk\build-tools\35.0.1
+[38;5;159m[068b608e][0m[38;5;229m[ADB][0m     C:\Users\sudar\AppData\Local\Android\Sdk\build-tools\33.0.1
+[38;5;159m[068b608e][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\sudar\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;159m[068b608e][0m[38;5;-120m[AndroidUiautomator2Driver@33ab][0m Retrieving device list
+[38;5;159m[068b608e][0m[38;5;-120m[AndroidUiautomator2Driver@33ab][0m Using device: emulator-5554
+[38;5;159m[068b608e][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\sudar\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;159m[068b608e][0m[38;5;-120m[AndroidUiautomator2Driver@33ab][0m Starting 'id.co.labamu.app' directly on the device
+[38;5;159m[068b608e][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;159m[068b608e][0m[38;5;-120m[AndroidUiautomator2Driver@33ab][0m Relaxing hidden api policy
+[38;5;159m[068b608e][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\sudar\AppData\Local\Android\Sdk\build-tools\36.0.0\aapt2.exe'
+[38;5;159m[068b608e][0m[38;5;-120m[AndroidUiautomator2Driver@33ab][0m Server packages are not going to be (re)installed
+[38;5;159m[068b608e][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;159m[068b608e][0m[38;5;-120m[AndroidUiautomator2Driver@33ab][0m Starting UIAutomator2 server 8.1.1
+[38;5;159m[068b608e][0m[38;5;-120m[AndroidUiautomator2Driver@33ab][0m Using UIAutomator2 server from 'C:\Users\sudar\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v8.1.1.apk' and test from 'C:\Users\sudar\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;159m[068b608e][0m[38;5;-120m[AndroidUiautomator2Driver@33ab][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;159m[068b608e][0m[38;5;-120m[AndroidUiautomator2Driver@33ab][0m socket hang up
+[38;5;159m[068b608e][0m[38;5;-120m[AndroidUiautomator2Driver@33ab][0m socket hang up
+[38;5;159m[068b608e][0m[38;5;-120m[AndroidUiautomator2Driver@33ab][0m socket hang up
+[38;5;159m[068b608e][0m[38;5;-120m[AndroidUiautomator2Driver@33ab][0m socket hang up
+[38;5;159m[068b608e][0m[38;5;-120m[AndroidUiautomator2Driver@33ab][0m Determined the downstream protocol as 'W3C'
+[38;5;159m[068b608e][0m[38;5;-120m[AndroidUiautomator2Driver@33ab][0m Screen already unlocked, doing nothing
+[38;5;159m[068b608e][0m[38;5;-120m[AndroidUiautomator2Driver@33ab][0m Starting 'id.co.labamu.app/id.co.labamu.app/.MainActivity' and waiting for 'id.co.labamu.app/id.co.labamu.app/.MainActivity'
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m New AndroidUiautomator2Driver session created successfully, session 068b608e-f21d-4c4b-996d-b22bfcabe6f4 added to master session list
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Promoting 1 sessionless plugins to be attached to session ID 068b608e-f21d-4c4b-996d-b22bfcabe6f4
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m23567 ms - 1133[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/status[39m [90m[39m
+[38;5;86m[HTTP][0m [37m<-- GET /status [39m[33m404[39m [90m16 ms - 5306[39m [90m[39m
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugins which can handle cmd 'timeouts': images
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugin images is now handling cmd 'timeouts'
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Executing default handling behavior for command 'timeouts'
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/timeouts [39m[32m200[39m [90m4 ms - 14[39m [90m[39m
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/execute/sync[39m [90m{"script":"mobile: getSystemBars","args":[]}[39m
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugins which can handle cmd 'execute': images
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugin images is now handling cmd 'execute'
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Executing default handling behavior for command 'execute'
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/execute/sync [39m[32m200[39m [90m492 ms - 151[39m [90m[39m
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/execute/sync[39m [90m{"script":"mobile: activateApp","args":[{"appId":"id.co.labamu.app","bundleId":"id.co.labamu.app"}]}[39m
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugins which can handle cmd 'execute': images
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugin images is now handling cmd 'execute'
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Executing default handling behavior for command 'execute'
+[38;5;159m[068b608e][0m[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: bundleId
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/execute/sync [39m[32m200[39m [90m468 ms - 14[39m [90m[39m
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/source[39m [90m{}[39m
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugins which can handle cmd 'getPageSource': images
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugin images is now handling cmd 'getPageSource'
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Executing default handling behavior for command 'getPageSource'
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/source [39m[32m200[39m [90m4347 ms - 9700[39m [90m[39m
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/screenshot[39m [90m{}[39m
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugins which can handle cmd 'getScreenshot': images
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugin images is now handling cmd 'getScreenshot'
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Executing default handling behavior for command 'getScreenshot'
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/screenshot [39m[32m200[39m [90m2948 ms - 1681624[39m [90m[39m
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/source[39m [90m{}[39m
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugins which can handle cmd 'getPageSource': images
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugin images is now handling cmd 'getPageSource'
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Executing default handling behavior for command 'getPageSource'
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/source [39m[32m200[39m [90m11784 ms - 35828[39m [90m[39m
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/screenshot[39m [90m{}[39m
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugins which can handle cmd 'getScreenshot': images
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugin images is now handling cmd 'getScreenshot'
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Executing default handling behavior for command 'getScreenshot'
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/screenshot [39m[32m200[39m [90m3801 ms - 1257624[39m [90m[39m
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/source[39m [90m{}[39m
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugins which can handle cmd 'getPageSource': images
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugin images is now handling cmd 'getPageSource'
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Executing default handling behavior for command 'getPageSource'
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/source [39m[32m200[39m [90m919 ms - 34645[39m [90m[39m
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/screenshot[39m [90m{}[39m
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugins which can handle cmd 'getScreenshot': images
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugin images is now handling cmd 'getScreenshot'
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Executing default handling behavior for command 'getScreenshot'
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4/screenshot [39m[32m200[39m [90m2926 ms - 280944[39m [90m[39m
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4[39m [90m{}[39m
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugins which can handle cmd 'deleteSession': images
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Plugin images is now handling cmd 'deleteSession'
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Executing default handling behavior for command 'deleteSession'
+[38;5;159m[068b608e][0m[38;5;127m[AppiumDriver@1ee2][0m Removing session 068b608e-f21d-4c4b-996d-b22bfcabe6f4 from our master session list
+[38;5;159m[068b608e][0m[38;5;-120m[AndroidUiautomator2Driver@33ab][0m Restoring hidden api policy to the device default configuration
+[38;5;159m[068b608e][0m[38;5;86m[HTTP][0m [37m<-- DELETE /wd/hub/session/068b608e-f21d-4c4b-996d-b22bfcabe6f4 [39m[32m200[39m [90m2669 ms - 14[39m [90m[39m

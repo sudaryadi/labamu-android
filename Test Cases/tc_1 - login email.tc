@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login mobile app using email</description>
+   <name>tc_1 - login email</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>288f0422-89e3-4ac8-8751-7921dfe659d5</testCaseGuid>
+</TestCaseEntity>
