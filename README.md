@@ -62,7 +62,6 @@ GMAIL_APP_PASSWORD
 
 ## GitHub Actions CI
 .github/workflows/katalon.yml
-yaml code:
 
 name: Katalon Tests
 
