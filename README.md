@@ -4,6 +4,7 @@
 ============================================================
 
 📁 Project Structure
+```
 Profiles/
 └── default
 
@@ -17,7 +18,7 @@ Object Repository/
 Keywords/
 └── gmail/
     └── GmailUtils.groovy
-
+```
 ============================================================
 
 🔧 Prerequisites
@@ -57,12 +58,13 @@ Set these inside Profiles → default:
 Environment Variables Required
 
 In the CI secret vault, add:
+```
 GMAIL_USERNAME
 GMAIL_APP_PASSWORD
-
+```
 ## GitHub Actions CI
 .github/workflows/katalon.yml
-
+```
 name: Katalon Tests
 
 on:
